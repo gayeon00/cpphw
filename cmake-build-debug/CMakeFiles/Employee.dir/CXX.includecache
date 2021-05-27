@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/seoyeon/CLionProjects/Employee/Employee.h
+string
+-
+utility
+-
+vector
+-
+iostream
+-
+memory
+-
+
+C:/Users/seoyeon/CLionProjects/Employee/main.cpp
+iostream
+-
+Employee.h
+C:/Users/seoyeon/CLionProjects/Employee/Employee.h
+
